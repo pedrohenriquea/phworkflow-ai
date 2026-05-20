@@ -5,7 +5,9 @@
 
 ## O que é este repo
 
-Conjunto de **práticas operacionais** para desenvolver com IA (GitHub Copilot, Claude, Cursor) de forma consistente, com foco em reduzir bugs em produção e manter aderência aos padrões do time.
+Conjunto de **práticas operacionais** para desenvolver com IA de forma consistente, reduzindo bugs em produção e mantendo aderência aos padrões do time.
+
+**Hoje focado em GitHub Copilot.** Os princípios (controle de contexto, Spec-Driven Development, slash commands) se aplicam a Claude Code, Cursor e similares — playbooks específicos para esses provedores estão no roadmap.
 
 Não é uma ferramenta. É um conjunto de:
 - **Playbooks** — fluxos de trabalho passo a passo por tipo de projeto
@@ -18,7 +20,7 @@ Não é uma ferramenta. É um conjunto de:
 
 1. Leia [`playbooks/novos-projetos-java-spring.md`](playbooks/novos-projetos-java-spring.md)
 2. Copie os templates relevantes de `templates/` para o seu repo
-3. Adapte o `copilot-instructions.md` ao seu domínio
+3. Adapte `.github/copilot-instructions.md` ao stack e padrões do seu projeto
 
 **Para entender os fundamentos:**
 
@@ -45,7 +47,9 @@ ph-ai-playbook/
 
 ## Roadmap
 
-- [x] Playbook: novos projetos Java + Spring Boot
+- [x] Playbook: novos projetos Java + Spring Boot (GitHub Copilot)
+- [ ] Playbook: novos projetos com Claude Code
+- [ ] Playbook: novos projetos com Cursor
 - [ ] Playbook: projetos legado (engenharia reversa de contexto)
 - [ ] Playbook: code review com IA
 - [ ] Playbook: observability e debugging com IA
