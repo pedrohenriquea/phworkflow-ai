@@ -1,0 +1,19 @@
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Drafts pessoais (não comitar)
+**/_draft/
+**/_local/
+
+# Claude Code local settings
+.claude/settings.local.json
